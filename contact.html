@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تماس با ما | گروه ساختمانی فرهادی</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100;200;300;400;500;600;700;800;900&display=swap');
+        body { font-family: 'Vazirmatn', sans-serif; background-color: #f9f9f9; }
+        .gold-text { color: #D4AF37; }
+        .gold-bg { background-color: #D4AF37; }
+        .section-title { font-size: 2rem; font-weight: bold; margin-bottom: 1rem; }
+        .section-divider { width: 80px; height: 4px; background: #D4AF37; margin: 0 auto 2rem auto; border-radius: 2px; }
+        .icon-circle { background: #D4AF37; color: #fff; border-radius: 50%; width: 36px; height: 36px; display: flex; align-items: center; justify-content: center; font-size: 1.2rem; margin-left: 1rem; }
+    </style>
+</head>
+<body class="bg-gray-50 font-sans">
+    <div class="min-h-screen flex flex-col justify-between">
+        <main class="max-w-3xl mx-auto mt-16 p-8 bg-white rounded-lg shadow-lg">
+            <div class="text-center mb-10">
+                <h1 class="text-4xl md:text-5xl font-bold gold-text mb-4">تماس با ما</h1>
+                <div class="section-divider"></div>
+                <p class="text-gray-600 max-w-xl mx-auto">برای دریافت مشاوره رایگان و اطلاع از خدمات ما با ما در تماس باشید. کارشناسان ما آماده پاسخگویی به شما هستند.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-10">
+                <div class="space-y-6">
+                    <div class="flex items-start gap-4">
+                        <div class="icon-circle"><i class="fas fa-map-marker-alt"></i></div>
+                        <div>
+                            <h4 class="font-bold">آدرس دفتر مرکزی</h4>
+                            <p class="text-gray-600">تهران، خیابان ولیعصر، پلاک 1000، طبقه 5</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-4">
+                        <div class="icon-circle"><i class="fas fa-phone"></i></div>
+                        <div>
+                            <h4 class="font-bold">تلفن تماس</h4>
+                            <p class="text-gray-600">021-12345678</p>
+                            <p class="text-gray-600">09123456789</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-4">
+                        <div class="icon-circle"><i class="fas fa-envelope"></i></div>
+                        <div>
+                            <h4 class="font-bold">ایمیل</h4>
+                            <p class="text-gray-600">info@talaeisaze.com</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-4">
+                        <div class="icon-circle"><i class="fas fa-clock"></i></div>
+                        <div>
+                            <h4 class="font-bold">ساعات کاری</h4>
+                            <p class="text-gray-600">شنبه تا چهارشنبه: 8:30 تا 16:30</p>
+                            <p class="text-gray-600">پنجشنبه: 8:30 تا 12:30</p>
+                        </div>
+                    </div>
+                    <div>
+                        <h4 class="font-bold mb-2 gold-text">ما را در شبکه‌های اجتماعی دنبال کنید</h4>
+                        <div class="flex gap-3">
+                            <a href="#" class="w-10 h-10 rounded-full gold-bg text-white flex items-center justify-center hover:bg-yellow-700 transition"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="w-10 h-10 rounded-full gold-bg text-white flex items-center justify-center hover:bg-yellow-700 transition"><i class="fab fa-telegram"></i></a>
+                            <a href="#" class="w-10 h-10 rounded-full gold-bg text-white flex items-center justify-center hover:bg-yellow-700 transition"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" class="w-10 h-10 rounded-full gold-bg text-white flex items-center justify-center hover:bg-yellow-700 transition"><i class="fab fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <form class="bg-gray-50 p-6 rounded-lg shadow" id="contact-form">
+                        <div class="mb-4">
+                            <label for="name" class="block text-gray-700 font-medium mb-2">نام و نام خانوادگی</label>
+                            <input type="text" id="name" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500">
+                        </div>
+                        <div class="mb-4">
+                            <label for="email" class="block text-gray-700 font-medium mb-2">ایمیل</label>
+                            <input type="email" id="email" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500">
+                        </div>
+                        <div class="mb-4">
+                            <label for="phone" class="block text-gray-700 font-medium mb-2">شماره تماس</label>
+                            <input type="tel" id="phone" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500">
+                        </div>
+                        <div class="mb-4">
+                            <label for="message" class="block text-gray-700 font-medium mb-2">پیام شما</label>
+                            <textarea id="message" rows="4" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500"></textarea>
+                        </div>
+                        <button type="submit" class="w-full py-3 gold-bg text-white rounded-full font-semibold hover:bg-yellow-700 transition duration-300">ارسال پیام</button>
+                    </form>
+                </div>
+            </div>
+            <div class="text-center mt-10">
+                <a href="index.html" class="inline-block px-8 py-3 gold-bg text-white rounded-full font-semibold hover:bg-yellow-700 transition duration-300">بازگشت به صفحه اصلی</a>
+            </div>
+        </main>
+        <footer class="bg-gray-900 text-white py-8 px-4 mt-12">
+            <div class="max-w-3xl mx-auto flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <span class="gold-text font-bold">گروه ساختمانی فرهادی</span> | تمامی حقوق محفوظ است.
+                </div>
+                <div class="flex gap-4">
+                    <a href="rules.html" class="text-gray-400 hover:text-white transition">قوانین و مقررات</a>
+                    <a href="privacy.html" class="text-gray-400 hover:text-white transition">حریم خصوصی</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script>
+        // Toast message
+        function showToast(message, success) {
+            let toast = document.getElementById('toast-message');
+            if (!toast) {
+                toast = document.createElement('div');
+                toast.id = 'toast-message';
+                toast.style.position = 'fixed';
+                toast.style.bottom = '40px';
+                toast.style.left = '50%';
+                toast.style.transform = 'translateX(-50%)';
+                toast.style.zIndex = '9999';
+                toast.style.minWidth = '220px';
+                toast.style.textAlign = 'center';
+                toast.style.padding = '16px 24px';
+                toast.style.borderRadius = '12px';
+                toast.style.fontSize = '1rem';
+                toast.style.boxShadow = '0 4px 16px rgba(0,0,0,0.15)';
+                document.body.appendChild(toast);
+            }
+            toast.textContent = message;
+            toast.style.background = success ? '#D4AF37' : '#e53e3e';
+            toast.style.color = '#fff';
+            toast.style.opacity = '1';
+            toast.style.pointerEvents = 'auto';
+            setTimeout(() => {
+                toast.style.opacity = '0';
+                toast.style.pointerEvents = 'none';
+            }, 3000);
+        }
+        // Email validation helper
+        function validateEmail(email) {
+            return /^\S+@\S+\.\S+$/.test(email);
+        }
+        // Contact form logic
+        document.addEventListener('DOMContentLoaded', function () {
+            const contactForm = document.getElementById('contact-form');
+            if (contactForm) {
+                contactForm.addEventListener('submit', function (e) {
+                    e.preventDefault();
+                    const name = document.getElementById('name').value.trim();
+                    const email = document.getElementById('email').value.trim();
+                    const phone = document.getElementById('phone').value.trim();
+                    const message = document.getElementById('message').value.trim();
+                    if (!name || !email || !phone || !message) {
+                        showToast('لطفاً همه فیلدها را پر کنید.', false);
+                        return;
+                    }
+                    if (!validateEmail(email)) {
+                        showToast('ایمیل وارد شده معتبر نیست.', false);
+                        return;
+                    }
+                    showToast('پیام شما با موفقیت ارسال شد!', true);
+                    contactForm.reset();
+                });
+            }
+        });
+    </script>
+</body>
+</html>

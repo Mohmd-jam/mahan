@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>خدمات | گروه ساختمانی فرهادی</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100;200;300;400;500;600;700;800;900&display=swap');
+        body { font-family: 'Vazirmatn', sans-serif; background-color: #f9f9f9; }
+        .gold-text { color: #D4AF37; }
+        .gold-bg { background-color: #D4AF37; }
+        .section-title { font-size: 2rem; font-weight: bold; margin-bottom: 1rem; }
+        .section-divider { width: 80px; height: 4px; background: #D4AF37; margin: 0 auto 2rem auto; border-radius: 2px; }
+        .icon-circle { background: #D4AF37; color: #fff; border-radius: 50%; width: 36px; height: 36px; display: flex; align-items: center; justify-content: center; font-size: 1.2rem; margin-left: 1rem; }
+        .service-card { transition: box-shadow 0.3s, transform 0.3s; box-shadow: 0 2px 8px rgba(0,0,0,0.07); }
+        .service-card:hover { box-shadow: 0 8px 24px rgba(212,175,55,0.18); transform: translateY(-6px) scale(1.03); }
+    </style>
+</head>
+<body class="bg-gray-50 font-sans">
+    <div class="min-h-screen flex flex-col justify-between">
+        <main class="max-w-4xl mx-auto mt-16 p-8 bg-white rounded-lg shadow-lg">
+            <div class="text-center mb-10">
+                <h1 class="text-4xl md:text-5xl font-bold gold-text mb-4">خدمات ما</h1>
+                <div class="section-divider"></div>
+                <p class="text-gray-600 max-w-xl mx-auto">گروه ساختمانی فرهادی با ارائه مجموعه‌ای کامل از خدمات ساختمانی، همراه مطمئن شما در مسیر ساخت، بازسازی و طراحی است.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-10">
+                <a href="residential.html" class="service-card flex items-start gap-4 p-6 bg-gray-50 rounded-lg hover:bg-white transition cursor-pointer">
+                    <div class="icon-circle"><i class="fas fa-home"></i></div>
+                    <div>
+                        <h3 class="font-bold gold-text text-lg mb-1">ساخت و ساز مسکونی</h3>
+                        <p class="text-gray-600 text-sm">ساخت خانه‌های مدرن، ایمن و مطابق با استانداردهای روز برای آسایش خانواده‌ها</p>
+                    </div>
+                </a>
+                <a href="commercial.html" class="service-card flex items-start gap-4 p-6 bg-gray-50 rounded-lg hover:bg-white transition cursor-pointer">
+                    <div class="icon-circle"><i class="fas fa-city"></i></div>
+                    <div>
+                        <h3 class="font-bold gold-text text-lg mb-1">ساخت و ساز تجاری</h3>
+                        <p class="text-gray-600 text-sm">اجرای پروژه‌های تجاری و اداری با امکانات کامل و طراحی مدرن</p>
+                    </div>
+                </a>
+                <a href="renovation.html" class="service-card flex items-start gap-4 p-6 bg-gray-50 rounded-lg hover:bg-white transition cursor-pointer">
+                    <div class="icon-circle"><i class="fas fa-sync-alt"></i></div>
+                    <div>
+                        <h3 class="font-bold gold-text text-lg mb-1">نوسازی و بازسازی</h3>
+                        <p class="text-gray-600 text-sm">تبدیل ساختمان‌های قدیمی به فضاهای مدرن و کارآمد با رعایت اصول فنی</p>
+                    </div>
+                </a>
+                <a href="interior.html" class="service-card flex items-start gap-4 p-6 bg-gray-50 rounded-lg hover:bg-white transition cursor-pointer">
+                    <div class="icon-circle"><i class="fas fa-paint-roller"></i></div>
+                    <div>
+                        <h3 class="font-bold gold-text text-lg mb-1">طراحی داخلی</h3>
+                        <p class="text-gray-600 text-sm">طراحی داخلی لوکس و مدرن برای فضاهای مسکونی و تجاری با خلاقیت و کیفیت</p>
+                    </div>
+                </a>
+            </div>
+            <div class="text-center mt-10">
+                <a href="index.html" class="inline-block px-8 py-3 gold-bg text-white rounded-full font-semibold hover:bg-yellow-700 transition duration-300">بازگشت به صفحه اصلی</a>
+            </div>
+        </main>
+        <footer class="bg-gray-900 text-white py-8 px-4 mt-12">
+            <div class="max-w-3xl mx-auto flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <span class="gold-text font-bold">گروه ساختمانی فرهادی</span> | تمامی حقوق محفوظ است.
+                </div>
+                <div class="flex gap-4">
+                    <a href="rules.html" class="text-gray-400 hover:text-white transition">قوانین و مقررات</a>
+                    <a href="privacy.html" class="text-gray-400 hover:text-white transition">حریم خصوصی</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
